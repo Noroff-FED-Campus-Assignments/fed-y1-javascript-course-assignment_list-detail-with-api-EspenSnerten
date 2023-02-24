@@ -1,0 +1,5 @@
+@keyframes bounce {
+  20% {
+      transform: translateY(-6px);
+  }
+}

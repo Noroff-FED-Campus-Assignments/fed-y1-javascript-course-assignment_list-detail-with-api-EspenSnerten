@@ -1,0 +1,43 @@
+@media (max-width: 920px) {
+  .form_container {
+    width: 90%;
+  }
+
+  .form_success {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .form_container {
+    width: 100%;
+    margin: 4em auto auto auto;
+  }
+
+  .form_container form {
+    border-radius: 0;
+    border: none;
+  }
+
+  .form_row {
+    flex-direction: column;
+  }
+
+  .form_success {
+    width: 90%;
+    margin-top: 5em;
+  }
+
+  .index_container {
+    padding: 0;
+    margin: auto 1.5em;
+  }
+
+  .errorbox {
+    font-size: 1.5em;
+    padding: 2em;
+    width: 90%;
+    margin: auto;
+    white-space: wrap;
+  }
+}

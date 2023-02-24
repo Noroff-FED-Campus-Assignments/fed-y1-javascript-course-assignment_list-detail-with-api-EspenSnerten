@@ -1,0 +1,111 @@
+.index_body {
+  background: #efefbb;
+  background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+  background-attachment: fixed;
+}
+
+.index_container {
+  padding: 40px;
+  margin: 0 6em;
+}
+
+.index_title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+  margin: 2em auto;
+}
+
+.card {
+  list-style: none;
+  padding: 4em;
+  background-color: rgb(230, 230, 230);
+  color: rgb(59, 59, 59);
+  text-align: center;
+  border-radius: 10%;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+  cursor: pointer;
+}
+
+#apiList {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.card_title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.card_subtitle {
+  margin-top: 5px;
+  color: #666;
+  font-weight: lighter;
+}
+
+.card_image {
+  height: 180px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0px;
+  background: #efefbb;
+  background: -webkit-linear-gradient(to right, #3324bd, #d30404);
+  background: linear-gradient(to right, #d4d3dd, #9e3a28);
+  opacity: 0.98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#closeBtn:hover {
+  transform: scale(1.2);
+  transform: rotate(1turn);
+  transition: 0.4s;
+}
+
+.errorbox {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  color: #d30404;
+  background-color: white;
+  border: solid 1px red;
+  padding: 2em;
+  width: auto;
+  margin: auto;
+  white-space: wrap;
+  font-size: 1.5625rem;
+  font-size: clamp(1.5625rem, 1.275rem + 0.43750000000000006vw, 2rem);
+}
+
+.types {
+  display: flex;
+  margin: 1em 0 0 0;
+  font-size: 1.5em;
+}
