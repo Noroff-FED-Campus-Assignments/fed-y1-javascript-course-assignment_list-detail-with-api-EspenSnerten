@@ -33,3 +33,5 @@ over all a frustrating but pretty fun project in my opinion.
 Icons: https://icons.getbootstrap.com/
 
 Media: https://www.wallpaperflare.com/snow-capped-mountains-wallpaper-artwork-illustration-sky-digital-art-wallpaper-pmqfs/download/2560x1440
+
+Fonts: https://www.1001fonts.com/nasalization-free-font.html

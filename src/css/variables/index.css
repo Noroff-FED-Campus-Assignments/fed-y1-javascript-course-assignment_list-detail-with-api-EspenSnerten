@@ -1,9 +1,16 @@
+@font-face {
+  font-family: "nasa";
+  src: url(/src/fonts/nasa.otf) format("opentype");
+}
+
 .index_body {
   background: #efefbb;
   background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
   background: linear-gradient(to right, #d4d3dd, #efefbb);
   background-attachment: fixed;
 }
+
+
 
 .index_container {
   padding: 40px;
@@ -15,6 +22,7 @@
   font-size: 2em;
   font-weight: normal;
   margin: 2em auto;
+  font-family: "nasa";
 }
 
 .card {
