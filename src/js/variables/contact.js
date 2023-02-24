@@ -5,13 +5,31 @@ const email = document.getElementById("email");
 const phoneNr = document.getElementById("phonenumber");
 const address = document.getElementById("address");
 const textBox = document.getElementById("textbox");
+const submit= document.getElementById("submit");
 
 form.addEventListener("submit", (e) => {
+
+  validateForm(); 
+  console.log(isFormValid());
+  if(isFormValid()==true){
+    form.submit();
+  } else{
   e.preventDefault();
-  checkInputs();
+  }
 });
 
-function checkInputs() {
+function isFormValid(){
+  const inputContainers = form.querySelectorAll('.form_box');
+  let result = true;
+  inputContainers.forEach((container)=>{
+      if(container.classList.contains('error')){
+          result = false;
+      }
+  });
+  return result;
+}
+
+function validateForm() {
   const fNameValue = fName.value.trim();
   const lNameValue = lName.value.trim();
   const emailValue = email.value.trim();
