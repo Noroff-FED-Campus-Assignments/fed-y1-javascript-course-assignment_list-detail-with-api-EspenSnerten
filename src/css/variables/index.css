@@ -89,6 +89,7 @@
   font-size: 2em;
   cursor: pointer;
   transition: 0.5s;
+  color: black;
 }
 
 #closeBtn:hover {
