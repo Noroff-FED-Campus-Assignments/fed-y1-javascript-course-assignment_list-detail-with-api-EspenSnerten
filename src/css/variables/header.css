@@ -1,0 +1,28 @@
+.header_container a {
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.header_container a:hover {
+  transition: all 250ms;
+  color: aliceblue;
+}
+
+.header_container a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: center;
+  margin: 3em auto 0 auto;
+}
+
+.header_box {
+  display: flex;
+  gap: 1.5em;
+}
