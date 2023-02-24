@@ -8,7 +8,11 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
+  .contact_body {
+    backdrop-filter: blur(45px);
+  }
+
   .form_container {
     width: 100%;
     margin: 4em auto auto auto;
@@ -22,6 +26,9 @@
   .form_row {
     flex-direction: column;
   }
+}
+
+@media (max-width: 600px) {
 
   .form_success {
     width: 90%;

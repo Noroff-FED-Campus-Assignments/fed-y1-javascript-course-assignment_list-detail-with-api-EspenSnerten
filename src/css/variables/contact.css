@@ -19,7 +19,7 @@ select:-webkit-autofill:focus {
   background-position: center;
   background-size: cover;
   min-height: 100vh;
-    width: 100%;
+  width: 100%;
 }
 
 .form_container {
@@ -101,7 +101,7 @@ select:-webkit-autofill:focus {
 }
 
 .form_box ::placeholder {
-  color: rgb(83, 83, 83);
+  color: rgb(49, 49, 49);
   font-family: system-ui, 'Segoe UI', Roboto, Cantarell,
     'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
